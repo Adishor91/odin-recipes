@@ -33,6 +33,27 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+#title a:link {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#title a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#title a:hover {
+    text-decoration: none;
+}
+
+
+#title a:active {
+    text-decoration: none;
+}
+
+
 #container {
     position: relative;
     text-align: center;
@@ -53,7 +74,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #814141;
+    background-color: #30190b;
     text-align:  center;
 }
   
@@ -67,12 +88,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #814141;
+    background-color: #30190b;
     font-size: larger;
 }
   
 li a:hover {
-    background-color: #111;
+    background-color: #52311D;
 }
 
 dt {
